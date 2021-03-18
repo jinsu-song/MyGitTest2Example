@@ -13,5 +13,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         
         tvName = findViewById(R.id.tvName);
-    }
+        tvName.setText("송진수");
+    }   // end of onCreate
 }
